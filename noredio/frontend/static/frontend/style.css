@@ -86,6 +86,14 @@ nav {
     align-content: center;
 }
 
+.cofounder-div {
+    border: 3px solid red;
+    background-color: grey;
+    min-height: 60vh;
+    display: grid;
+    place-content: center;
+}
+
 a:hover {
     opacity: .85;
 }
