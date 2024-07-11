@@ -69,14 +69,21 @@ nav {
     color: white;
 }
 
-.main-bubble {
+.main-bubble-1 {
     background-color: purple;
     min-height: 60vh;
     min-width: 95vw;
     display: grid;
     justify-content: center;
     align-content: space-around;
-    
+}
+.main-bubble-2 {
+    background-color: purple;
+    min-height: 60vh;
+    min-width: 95vw;
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
 
 a:hover {
