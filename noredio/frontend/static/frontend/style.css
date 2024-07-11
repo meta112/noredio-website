@@ -6,7 +6,7 @@
 
 body {
     min-height: 100vh;
-    background-color: grey;
+    background-color: black;
     color: whitesmoke;
     font-size: 2rem;
     display: flex;
@@ -37,9 +37,20 @@ a {
     color: #81dbb8;
 }
 
+.hori-line {
+    border: 1px solid white;
+    height: 0;
+    width: 30%;
+    justify-self: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
 nav {
     background-color: black;
+    height: 75px;
 }
+
 
 .navbar-collapse {
     justify-content: end;
@@ -56,7 +67,7 @@ nav {
 
 .main-bubble {
     background-color: purple;
-    min-height: 40vh;
+    min-height: 60vh;
     min-width: 95vw;
     display: grid;
     justify-content: center;
