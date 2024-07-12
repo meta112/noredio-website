@@ -52,10 +52,12 @@ h2 {
 nav {
     background-color: black;
     height: 75px;
+    box-shadow: 0 5px 4px -1px rgba(192, 192, 192, 0.5);
 }
 
 
 .navbar-collapse {
+    background-color: black;
     justify-content: end;
 }
 
