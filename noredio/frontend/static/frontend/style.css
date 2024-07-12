@@ -65,7 +65,7 @@ nav {
 }
 
 .main-bubble-1 {
-    background-color: purple;
+    background-image: linear-gradient(to bottom right, rgb(15, 0, 35), rgb(85, 34, 151));
     min-height: 60vh;
     min-width: 95vw;
     display: grid;
@@ -73,7 +73,7 @@ nav {
     align-content: space-around;
 }
 .main-bubble-2 {
-    background-color: purple;
+    background-image: linear-gradient(to bottom right, rgb(15, 0, 35), rgb(85, 34, 151));
     min-height: 60vh;
     min-width: 95vw;
     display: grid;
