@@ -12,6 +12,7 @@ body {
     min-height: 100vh;
     background-color: black;
     color: whitesmoke;
+    font-family: 'Poppins';
     font-size: 1.5rem;
     display: flex;
     flex-flow: column;
