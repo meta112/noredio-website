@@ -105,6 +105,10 @@ a {
     font-size: 1.5rem;
 }
 
+video {
+    justify-self: center;
+}
+
 a:hover {
     opacity: .85;
 }
