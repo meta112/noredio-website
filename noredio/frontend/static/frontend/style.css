@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
     background-color: black;
     color: whitesmoke;
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     flex-flow: column;
 }
@@ -23,7 +23,11 @@ main {
     
 }
 
-h1, h3, h4, p {
+p {
+    text-align: justify;
+}
+
+h1, h3, h4{
     text-align: center;
 }
 
@@ -88,6 +92,11 @@ nav {
     min-height: 60vh;
     display: grid;
     place-content: center;
+}
+
+.vision-div {
+    max-width: 80vw;
+    justify-self: center;
 }
 
 a {
