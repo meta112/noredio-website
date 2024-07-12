@@ -36,11 +36,6 @@ h2 {
     font-size: 2.5rem;
 }
 
-a {
-    text-decoration: none;
-    color: #81dbb8;
-}
-
 .hori-line {
     border: 2px solid white;
     height: 0;
@@ -84,6 +79,7 @@ nav {
     display: grid;
     justify-content: center;
     align-content: center;
+    text-align: center;
 }
 
 .cofounder-div {
@@ -92,6 +88,21 @@ nav {
     min-height: 60vh;
     display: grid;
     place-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-box {
+    justify-self: center;
+}
+
+.contact-box-link {
+    display:flex;
+    align-items: center;
+    font-size: 1.5rem;
 }
 
 a:hover {
