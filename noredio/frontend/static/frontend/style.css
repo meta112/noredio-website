@@ -93,6 +93,8 @@ nav {
     min-width: 100%;
     position: relative;
     text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
 }
 
 .home-main-title {
