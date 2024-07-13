@@ -89,7 +89,7 @@ nav {
     text-align: center;
 }
 
-.home-main {
+.page-main {
     min-width: 100%;
     position: relative;
     text-align: center;
@@ -109,9 +109,6 @@ nav {
     left: 50%;
     top: 25%;
     transform: translate(-50%);
-}
-.home-main-subtitle > h2 {
-    font-weight: bold;
 }
 
 .cofounder-div {

@@ -1,14 +1,22 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block title %}
     About
 {% endblock %}
 
 {% block content %}
-    <div class="container rounded-5 main-bubble-2">
-        <h1>About Us</h1>
-        <h2>Generate your music. Own your music.</h2>
+    <div class="container page-main">
+        <img src="{% static 'frontend/images/noredio_about_main.png' %}" style="width:100%">
+        <div class="home-main-title">
+            <h1>About Us</h1>
+        </div>
+        <div class="home-main-subtitle">
+            <h2>Generate Your Music</h2>
+            <h2>Own Your Music</h2>
+        </div>
+        
     </div>
+
     <div class="hori-line"></div>
     <h1>Co-Founders</h1>
     <div class="cofounder-div">
