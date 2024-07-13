@@ -1,14 +1,22 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block title %}
     Contact
 {% endblock %}
 
 {% block content %}
-    <div class="container rounded-5 main-bubble-2">
-        <h1>Contact Us</h1>
-        <h2>Still listening? Get in touch!</h2>
+    <div class="container page-main">
+        <img src="{% static 'frontend/images/noredio_about_main.png' %}" style="width:100%">
+        <div class="home-main-title">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="home-main-subtitle">
+            <h2>Still listening?</h2>
+            <h2>Get in touch!</h2>
+        </div>
+        
     </div>
+
     <div class="hori-line"></div>
     <div class="contact-box">
         <a class="contact-box-link" href="https://www.linkedin.com/company/noredio/">
