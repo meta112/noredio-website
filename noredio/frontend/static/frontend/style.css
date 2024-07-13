@@ -34,6 +34,10 @@ h1, h3, h4{
 
 h1 {
     font-weight: bold;
+    font-size: 3.5rem; 
+}
+
+.page-main-title > h1 {
     font-size: 5rem; 
 }
 
@@ -97,7 +101,7 @@ nav {
     margin-bottom: 5vh;
 }
 
-.home-main-title {
+.page-main-title {
     max-height: 10%;
     position: absolute;
     left: 50%;
@@ -106,6 +110,15 @@ nav {
 }
 
 .home-main-subtitle {
+    max-height: 10%;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%);
+    text-shadow: 0 0 10px black;
+}
+
+.page-main-subtitle {
     max-height: 10%;
     position: absolute;
     left: 50%;
