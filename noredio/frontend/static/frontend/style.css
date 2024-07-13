@@ -89,6 +89,31 @@ nav {
     text-align: center;
 }
 
+.home-main {
+    min-width: 100vw;
+    position: relative;
+    text-align: center;
+}
+
+.home-main-title {
+    max-height: 10%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%);
+}
+
+.home-main-subtitle {
+    max-height: 10%;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%);
+}
+.home-main-subtitle > h2 {
+    font-weight: bold;
+}
+
 .cofounder-div {
 
     margin-top: 2vh;

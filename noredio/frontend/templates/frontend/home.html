@@ -6,19 +6,19 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container rounded-5 main-bubble-1">
-        <div class="row">
-            <div class="col-sm-6" style="text-align: end;">
-                <img style="height:200px" src="{% static 'frontend/images/noredio_logo_white.png' %}" alt="Noredio">
-            </div>
-            <div class="col-sm-6">
-                <h1 style="text-align: start;">Noredio</h1>
-                <h2 style="text-align: start;">Generate your music. Own your music.</h2>
-            </div>
+    <div class="container home-main">
+        <img src="{% static 'frontend/images/noredio_home_main.png' %}" style="width:100%">
+        <div class="home-main-title">
+            <h1>Noredio</h1>
         </div>
-        <a href="#productVideo" style="min-width: 30vh; justify-self: center;" class="btn btn-light rounded-pill">Learn More</a>
+        <div class="home-main-subtitle">
+            <h2>Generate your music.</h2>
+            <h2>Own your music.</h2>
+        </div>
+        
     </div>
-    <div id="productVideo" class="hori-line"></div>
+    
+    <div class="hori-line"></div>
     <h1 style="margin-top: 2vh;">Our Product</h1>
     <video class="embed-responsive embed-responsive-16by9" controls controlsList="nodownload">
         <source src="{% static 'frontend/videos/Noredio_Demo.mp4' %}" type="video/mp4">
