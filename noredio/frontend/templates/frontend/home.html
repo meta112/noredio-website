@@ -6,9 +6,9 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container page-main">
-        <img src="{% static 'frontend/images/noredio_home_main.png' %}" style="width:100%">
-        <div class="page-main-title">
+    <div class="container-fluid page-main">
+        <img src="{% static 'frontend/images/noredio_home_main3.png' %}" style="width:100%">
+        <div class="home-main-title">
             <h1>Noredio</h1>
         </div>
         <div class="home-main-subtitle">
@@ -18,11 +18,11 @@
         
     </div>
     
-    <h1 style="margin-top: 2vh;">Our Product</h1>
-    <video class="embed-responsive embed-responsive-16by9" controls controlsList="nodownload">
+    <h1 style="margin-top: 2vh; margin-bottom: 10vh;">Our Product</h1>
+    <video class="embed-responsive embed-responsive-16by9" controls controlsList="nodownload" style="margin-bottom: 10vh;">
         <source src="{% static 'frontend/videos/Noredio_Demo.mp4' %}" type="video/mp4">
     </video>
-    <div class="hori-line"></div>
+    
 
 
 {% endblock %}
