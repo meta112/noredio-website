@@ -35,23 +35,34 @@ h1, h3, h4{
 h1 {
     font-weight: bold;
     font-size: 3.5rem; 
+    margin-bottom: 5vh;
+}
+
+.home-main-title > h1 {
+    font-size: 5rem; 
 }
 
 .page-main-title > h1 {
-    font-size: 5rem; 
+    font-size: 4.5rem; 
+}
+
+.page-main-subtitle > h2 {
+    font-size: 2rem;
 }
 
 h2 {
     font-size: 2.5rem;
 }
 
+
+
 .hori-line {
     border: 2px solid white;
     height: 0;
     width: 30%;
     justify-self: center;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 nav {
@@ -98,7 +109,15 @@ nav {
     position: relative;
     text-align: center;
     margin-top: 10vh;
-    margin-bottom: 5vh;
+    margin-bottom: 15vh;
+}
+
+.home-main-title {
+    max-height: 10%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%);
 }
 
 .page-main-title {
@@ -122,13 +141,11 @@ nav {
     max-height: 10%;
     position: absolute;
     left: 50%;
-    top: 25%;
+    top: 30%;
     transform: translate(-50%);
 }
 
 .cofounder-div {
-
-    margin-top: 2vh;
     min-height: 60vh;
     display: grid;
     place-content: center;
@@ -137,6 +154,8 @@ nav {
 .vision-div {
     max-width: 80vw;
     justify-self: center;
+    margin-top: 2vh;
+    margin-bottom: 10vh;
 }
 
 a {
@@ -146,6 +165,7 @@ a {
 
 .contact-box {
     justify-self: center;
+    margin-bottom: 10vh;
 }
 
 .contact-box-link {
