@@ -175,7 +175,7 @@ a {
 }
 
 video {
-    justify-self: center;
+    width: 70%;
 }
 
 a:hover {
